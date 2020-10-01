@@ -1,0 +1,31 @@
+
+section{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}#sec1{
+    background-image:url(../images/backgrounds/h_img.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+}
+#sec1 img{
+    align-content: center;
+    position: relative;
+    margin-top: 300px;
+}
+#sec2 {
+    margin-top: 50px;
+    text-align: center;
+}
+#sec3{
+    background-image: url(../images/backgrounds/s_image.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-top: 150px;
+}
