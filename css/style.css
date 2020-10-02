@@ -68,13 +68,35 @@ input[type="text"]{
 }
 textarea{
     width: 800px;
+    padding-top: 15px;
 }
 input[type="text"],
 textarea {
     border: none;
-    padding: 2px;
+    padding: 5px 10px;
     margin:5px 10px 15px 10px;
     background: transparent;
     border: solid 1px;
     color: #ffffff;
+}
+::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+input[type="submit"] {
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #b3ccff;
+}
+
+input[type="submit"]:hover {
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffcc;
 }
