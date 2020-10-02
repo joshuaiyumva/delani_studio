@@ -550,6 +550,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -583,6 +584,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  align-content: center;
 }
 
 .no-gutters {
@@ -606,6 +608,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  align-content: center;
 }
 
 .col {
@@ -632,6 +635,7 @@ pre code {
   -ms-flex: 0 0 33.333333%;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
+  margin-bottom: 10px;
 }
 
 .row-cols-4 > * {
@@ -675,6 +679,7 @@ pre code {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%;
+  align-content: center;
 }
 
 .col-4 {
