@@ -1,5 +1,5 @@
 // Design icon interface logic...
-$('p.design_icon').click(function () {
+$('#firstDiv p.design_icon').click(function () {
     $(this).hide();
     $('p.design_para').show();
 });

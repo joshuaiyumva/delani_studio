@@ -1,8 +1,8 @@
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>Delani Studio</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
@@ -24,6 +24,7 @@
             <img class="mouseClick" src="images/mouse_click.png" width="20" height="30" />
         </div>
     </section>
+    <hr>
     <section id="aboutSec">
         <h2>ABOUT US</h2>
         <p>When you work with us, you are part of a team of committed collaboratores. all aspects pf our software
@@ -35,6 +36,7 @@
             <p>Then we help translate them into effective and elegant solutions.</p>
         </p>
     </section>
+    <hr>
     <section id="serviceSec">
         <h2>SERVICES</h2>
         <p>Before we sign any contract or write any line of codes our team will spend the necessary time needed to
@@ -42,24 +44,20 @@
         <p>The outcome of this scoping session ia proposal or high-level statement of work.</p>
         <p>based on your requirements, we can provide a complete offering or just the piesces you need.</p>
     </section>
+    <hr>
     <section id="whattodoSec">
-        <h2>WHAT WE DO</h2><br>
-        <div class="row">
-            <div class="row-cols-5">
+        <h2>WHAT WE DO</h2>
+        <div id="outerDiv">
+            <div id="firstDiv">
                 <p class="design_icon"><img src="../delani_studio/images/services_icons/design_icon.png" /><br>
                     DESIGN</p>
                 <p class="design_para" style="display: none;">Our design practice offers a full range of services
-                    including
-                    brand strategy,
-                    interaction and visual
-                    design and user
-                    experience testing.
+                    including brand strategy, interaction and visual design and user experience testing.
                     Throughout your project, our designers create and implement visual design and workflows, solicit
-                    user feedback and work
-                    with you to make sure what gets built is what is needed.
+                    user feedback and workwith you to make sure what gets built is what is needed.
                 </p>
             </div>
-            <div class="row-cols-4">
+            <div id="secondDiv">
                 <p class="dev_icon"><img src="../delani_studio/images/services_icons/dev_icon.png" /><br>
                     DEVELOPMENT</p>
                 <p class="dev_para" style="display: none;">All engineers are fluent in the latest enterprise, mobile and
@@ -71,20 +69,18 @@
                     development and pair programming.
                 </p>
             </div>
-            <div class="row-cols-4">
+            <div id="thirdDiv">
                 <p class="product_icon"><img src="../delani_studio/images/services_icons/product_icon.png" /><br>
                     PRODUCT MANAGMENT</p>
                 <p class="product_para" style="display: none;">Planning and development is iterative. Because we are
-                    constantly
-                    coding and
-                    testing, the products we
-                    build are always
-                    ready to go live.
+                    constantly coding andtesting, the products we build are always ready to go live.
                     This iterative process allows for changes as business requirements evolve.
                 </p>
             </div>
+
         </div>
     </section>
+    <hr>
     <section id="portfolioSec">
         <h2>PORTFOLIO</h2>
         <img class="img1" src="images/portfolio/work4.jpg" placeholder="" width="230" height="200" />
@@ -96,26 +92,38 @@
         <img class="img7" src="images/portfolio/work7.jpg" placeholder="" width="230" height="200" />
         <img class="img8" src="images/portfolio/work8.jpg" placeholder="" width="230" height="200" />
     </section>
+    <hr>
     <section id="contactSec">
         <h2>CONTACT US</h2><br><br>
         <form>
-            <input type="text" placeholder="Name..." width="200" required />
-            <input type="text" placeholder="Email..." width="200" required /><br><br>
-            <textarea cols="60" rows="10" placeholder="Your message here..." required></textarea><br><br>
+            <input name="name" type="text" placeholder="Name..." width="200" max-lenght="60" required />
+            <input name="email" type="text" placeholder="Email..." width="200" max-lenght="60" required /><br><br>
+            <textarea placeholder="Your message here..." required></textarea><br><br>
             <input type="submit" name="Submit" value="Submit" />
         </form>
     </section>
-    <section id="sec7">
-        <a href="#"><img src="images/social_icons/behance.png" /></a>
-        <a href="#"><img src="images/social_icons/dribble.png" /></a>
-        <a href="#"><img src="images/social_icons/facebook.png" /></a>
-        <a href="#"><img src="images/social_icons/flickr.png" /></a>
-        <a href="#"><img src="images/social_icons/g_plus.png" /></a>
-        <a href="#"><img src="images/social_icons/pinterest.png" /></a>
-        <a href="#"><img src="images/social_icons/skype.png" /></a>
-        <a href="#"><img src="images/social_icons/stumble_upon.png" /></a>
+    <hr>
+    <section id="socialSec">
         <a href="#"><img src="images/social_icons/twitter.png" /></a>
-        <a href="#"><img src="images/social_icons/you_tube.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/dribble.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/facebook.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/g_plus.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/skype.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/stumble_upon.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/behance.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/pinterest.png" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src="images/social_icons/flickr.png" /></a>
+        <br><br>
+        <p>DELANI STUDIO</p>
+        <p>&copy; 2020</p>
     </section>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/script.js"></script>
