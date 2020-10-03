@@ -56,7 +56,8 @@ section {
     /* height: 100%; */
     background-repeat: no-repeat;
     color: #fff;
-    /* padding-top: 134px; */
+    padding-top: 134px;
+    padding-bottom: 130px;
     background-position: center;
     background-size: cover;
     align-content: center;
