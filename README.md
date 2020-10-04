@@ -16,7 +16,7 @@ This website is a landing page for a fictional studio known as DELANI STUDIO; it
 ## Technology used...
 #### The technology used for the creation and completion of the website are the following:
 . A text Editor: (Visual Studio Code).
-. Language used: **HTML(hyperText Markup Language)**for adding content on the website to be viewed on the browser; **CSS (Cascading Style Sheet)** where you can repostion the design of every code written in HTML; like repositioning you profile picture, make different backgrounds and text colors to differ from one another, and **Jquery** to add actions(i.e like what happens when you click, or when you hover over an image, or even when you submit your message how you know it is received).
+. Language used: **HTML(hyperText Markup Language)** for adding content on the website to be viewed on the browser; **CSS (Cascading Style Sheet)** where you can repostion the design of every code written in HTML; like repositioning you profile picture, make different backgrounds and text colors to differ from one another, and **Jquery** to add actions(i.e like what happens when you click, or when you hover over an image, or even when you submit your message how you know it is received).
 
 ## Support and contact...
 #### If after viewing this website, well, you are not satisfied with what you saw,
@@ -25,6 +25,8 @@ Or maybe you have a question regerdin how I my codes interact between each other
 #### you can write me to the following e-mail: joshuaiyumva@gmail.com , and I will respond to your questions, or request. 
 
 #### Hope you Like it...
+#### for the source codes visit: https://github.com/joshuaiyumva/delani_studio
+#### to view the website visit: 
 
 ## License...
 

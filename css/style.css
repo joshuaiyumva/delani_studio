@@ -1,6 +1,7 @@
 section {
     width: 100%;
     text-decoration: none;
+    display: inline-block;
 }
 
 #welcomeSec,
@@ -10,8 +11,10 @@ section {
 #socialSec,
 #whattodoSec,
 #portfolioSec {
-    display: block;
+    display: inline-block;
+    width: 100%;
 }
+
 /* Welcome section Interface Logic */
 #welcomeSec {
     background-image: url(../images/backgrounds/h_img.jpg);
@@ -21,23 +24,17 @@ section {
     background-position: center;
     background-size: cover;
     color: #fff;
-    align-content: center;
     position: relative;
-    text-align: center;
     padding-top: 190px;
-
-
-}
-/* The studio's logo interface logic */
-#intro.logo {
     align-content: center;
     text-align: center;
 
+
 }
 
-div#intro.mouseClick {
-   position: relative;
-   bottom: -100px;
+#welcomeSec.mouseClick {
+    bottom: 10px;
+    align-content: center;
 }
 
 #aboutSec,
@@ -67,7 +64,7 @@ div#intro.mouseClick {
 
 #whattodoSec {
     padding-top: 5%;
-    width: 100%;
+    display: block;
 }
 
 #whattodoSec h2 {
@@ -133,14 +130,54 @@ div#thirdDiv {
     position: relative;
 }
 
-#portfolioSec img {
+#imageSec {
+    align-content: center;
+    text-align: center;
+    margin-left: 150px;
+    position: relative;
+}
+
+.wrapper,
+.wrapper1,
+.wrapper2,
+.wrapper3,
+.wrapper4,
+.wrapper5,
+.wrapper6,
+.wrapper7,
+.wrapper8 {
+    position: relative;
+    padding: 0;
+    width: 230px;
+    float: left;
+    margin: 15px 10px;
+}
+
+.img1 {
+    position: absolute;
+    color: #ffa31a;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 230px;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0;
+}
+
+.img1:hover {
+    opacity: 1;
+}
+
+/* #portfolioSec img {
     margin: 10px 10px 30px 10px;
     opacity: 1.0;
 }
 
 #portfolioSec img:hover {
     opacity: 0.4;
-}
+} */
 
 input[type="text"] {
     width: 420px;
@@ -169,22 +206,34 @@ textarea {
     opacity: 1;
 }
 
-input[type="submit"] {
+input[type="button"] {
     font-size: 15px;
     width: 100px;
     height: 35px;
     border: 0;
     border-radius: 5px;
     background-color: #3366cc;
-    position: relative;
+    position: absolute;
 }
 
-input[type="submit"]:hover {
+input[type="button"]:hover {
     font-size: 15px;
     width: 100px;
     height: 35px;
     border: 0;
     border-radius: 5px;
     background-color: #ffffcc;
-    position: relative;
+    position: absolute;
+}
+
+@media (max-width: 769px) {
+    textarea {
+        width: 400px;
+    }
+
+    #whattodoSec {
+        display: block;
+        clear: both;
+        content: "";
+    }
 }
