@@ -26,7 +26,7 @@ Or maybe you have a question regerdin how I my codes interact between each other
 
 #### Hope you Like it...
 #### for the source codes visit: https://github.com/joshuaiyumva/delani_studio
-#### to view the website visit: 
+#### to view the website visit: https://joshuaiyumva.github.io/delani_studio/
 
 ## License...
 
