@@ -27,28 +27,19 @@ $(document).ready(function () {
         $('p.product_icon').show();
     });
 
-    // $("img.img1").mouseover(function(){
-    //     $(this).toggle();
-    //     $('p.img1').toggle();
-    // });
-    // Portfolio section Interface logic...
-    $("img.img1").hover(function () {
-        $(this).append('p.img1');
-    }, function () {
-        $(p.img1).css("font-weight", "bold");
-    });
-
-    $('#submitBtn').submit(function(event){
-        var names = $('#nameTxt').val();
-        var mail = $('#mailTxt').val();
-        var message = $('#messageTxt').val();
-        if(names == "" || mail == "" || message == ""){
-            alert("Please all the boxes first");
-        }
-        else
-        {
-            alert("Hello" + names + "your e-mail is:" + mail + " thank you for reaching out to us");
-        }
-        event.preventbyDefault();
-    });
+    // Contact us form interface logic...
+     $(function () {
+         $('#submitBtn').click(function (e) {
+             e.preventDefault();
+             var names = $('input#nameTxt').val();
+             var mails = $('input#mailTxt').val();
+             var messageBox = $('textarea#messageTxt').val();
+             $("#myForm").submit();
+             if (names == "" || mails == "" || messageBox == "") {
+                 alert("Please fill all element first");
+             } else {
+                 alert("Hi " + names + " ,your e-mail is: " + mails + " , your message was received Thank you for reaching out!");
+             }
+         });
+     });
 });

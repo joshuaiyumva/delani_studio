@@ -155,7 +155,7 @@ div#thirdDiv {
 
 .img1 {
     position: absolute;
-    color: #ffa31a;
+    color: #ffffff;
     font-size: 30px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.5);
@@ -170,15 +170,6 @@ div#thirdDiv {
     opacity: 1;
 }
 
-/* #portfolioSec img {
-    margin: 10px 10px 30px 10px;
-    opacity: 1.0;
-}
-
-#portfolioSec img:hover {
-    opacity: 0.4;
-} */
-
 input[type="text"] {
     width: 420px;
     padding-left: 5px;
@@ -186,6 +177,7 @@ input[type="text"] {
 
 textarea {
     width: 800px;
+    height: 200px;
     padding-top: 15px;
     overflow: auto;
     position: relative;
@@ -206,7 +198,7 @@ textarea {
     opacity: 1;
 }
 
-input[type="button"] {
+button[type="button"] {
     font-size: 15px;
     width: 100px;
     height: 35px;
@@ -216,7 +208,7 @@ input[type="button"] {
     position: absolute;
 }
 
-input[type="button"]:hover {
+button[type="button"]:hover {
     font-size: 15px;
     width: 100px;
     height: 35px;
