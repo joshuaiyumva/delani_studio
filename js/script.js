@@ -28,18 +28,17 @@ $(document).ready(function () {
     });
 
     // Contact us form interface logic...
-     $(function () {
-         $('#submitBtn').click(function (e) {
-             e.preventDefault();
-             var names = $('input#nameTxt').val();
-             var mails = $('input#mailTxt').val();
-             var messageBox = $('textarea#messageTxt').val();
-             $("#myForm").submit();
-             if (names == "" || mails == "" || messageBox == "") {
-                 alert("Please fill all element first");
-             } else {
-                 alert("Hi " + names + " ,your e-mail is: " + mails + " , your message was received Thank you for reaching out!");
-             }
-         });
-     });
+    $('#submitBtn').click(function (e) {
+        e.preventDefault();
+        var names = $('input#nameTxt').val();
+        var mails = $('input#mailTxt').val();
+        var messageBox = $('textarea#messageTxt').val();
+        $("#myForm").submit();
+        if (names == "" || mails == "" || messageBox == "") {
+            alert("Please fill all element first");
+            return false;
+        } else {
+            alert("Hello " + names + " ,your e-mail is: " + mails + " , your message was received Thank you for reaching out!");
+        }
+    });
 });
